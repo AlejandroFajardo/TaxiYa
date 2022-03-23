@@ -4,3 +4,11 @@ Dentro de views hay que crear cada uno de los archivos .hbs con el solo body de 
 https://www.youtube.com/watch?v=qJ5R9WTW0_E&t=11388s&ab_channel=Fazt recomendable ver este video 
 https://handlebarsjs.com/ si necesitan documentacion de handlebars aqui tambien esta y es sencillo como tal 
 https://www.youtube.com/watch?v=GpXHbsH6BA8&ab_channel=RiskyProgrammer este es un ejemplo basico de handlebars 
+**************************
+Ejemplo con Mongodb (sin login):
+https://www.youtube.com/watch?v=I-MhmB5B6Zk
+
+Ejemplo con Mongo (CON LOGIN):
+https://www.youtube.com/watch?v=-bI0diefasA&t=6s
+
+
