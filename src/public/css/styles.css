@@ -1,0 +1,194 @@
+
+@media only screen and (min-width: 200px) {
+
+    .nav-bar{
+        background: linear-gradient(360deg, #FFFFFF 50%, #222930 50%);
+        padding-top: 20px;
+    }
+
+    .acount-img{
+        max-width: 125px;
+    }
+
+    .user-gray{
+       display: none;
+    }
+
+    .taxi-img{
+        max-width: 100px;       
+    }
+
+    .my-card{
+        background-color: #F5C6CB;
+        font-size: 12px
+    }
+
+    .my-card-2{
+        border: 1px solid #18A0FB;
+        font-size: 12px
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .taxi-icon{
+        max-width: 300px;
+    }
+
+    .personal-info{
+      border-top:    1px solid #B7B5B5;
+     border-right:  0px;
+     border-bottom: 1px solid #B7B5B5;
+     border-left:   0px;
+     font-size: 12px;   
+    }
+
+    .main-content{
+    padding: auto;
+    }   
+
+    .mobile{
+        display: block;
+    }
+
+    .welcome-title{
+        font-weight: 300;
+        font-size: 25px;
+    }
+    
+    .text-down{
+        font-weight: normal;
+        font-size: 21px;
+    }
+
+    .welcome-name{
+        color: #18A0FB ;
+        font-weight: 500;
+        font-family: roboto;
+        font-size: 25px;
+    }
+
+    .desktop{
+        display: none;
+    }
+   
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .nav-bar{
+        background: #222930;
+        color: white;
+       
+    }
+
+    .user-gray{
+        max-width: 125px;
+        display: block;
+    }
+
+    .name{
+        padding: 10px;
+        text-align: left !important;
+        font-size: 23px;
+    }
+
+    .acount-img{
+        max-width: 70px;
+        align-self: flex-start !important;
+        margin: 0 !important;
+        }
+
+    .menu{
+        background: #222930;
+        color: wheat;
+        display: block;
+    }
+
+    .my-card{
+        background-color: #F5C6CB;
+        font-size: 15px;
+    }
+
+    .my-card-2{
+        font-size: 15px;
+        border: 1px solid #18A0FB;
+    }
+
+    .main-content{
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+
+    .mobile{
+        display: none;
+    }
+   
+    .welcome-title{
+        font-weight: 300;
+        font-size: 60px;
+    }
+    
+    .text-down{
+        font-weight: normal;
+        font-size: 40px;
+    }
+
+    .welcome-name{
+        color: #18A0FB ;
+        font-weight: 500;
+        font-family: roboto;
+        font-size: 60px;
+    }
+
+    .start{
+        font-size: 30px;
+    }
+
+    .desktop{
+        display: block;
+    }
+}
+
+
+.personal-content{
+    border: 1px solid #18A0FB;
+}
+
+.info-button{
+    background-color: #18A0FB !important;
+    color: #222930 !important;
+    font-size: 19px;
+}
+
+.check-button{
+    background-color: #222930 !important;
+    border-color:#222930 !important;
+    color: white !important;
+    font-size: 19px;
+}
+
+
+.info-img{
+    width: 30px;
+}
+
+.list-group-item-action :hover {
+    background-color: red !important;
+}
+
+.welcome-name{
+    color: #18A0FB ;
+}
+
+.welcome-title{
+    color: #18A0FB ;
+}
+
+.text-down{
+    font-weight: normal;
+}
+
+

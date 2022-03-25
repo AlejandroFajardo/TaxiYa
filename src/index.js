@@ -30,7 +30,7 @@ app.engine(
   })
 );
 app.set("view engine", ".hbs");
-
+console.log(path.join(app.get("views"), "layouts"));
 //Middlewares
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: false }));

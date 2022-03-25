@@ -4,7 +4,11 @@ const express = require("express");
 const router = express.Router();
 
 router.get('/users/singin', (req, res) => {
-    res.render('login');
+    res.render('login/login');
 });
+
+router.get('/users/welcome', (req, res) => {
+    res.render('welcome/welcome')
+})
 
 module.exports = router;
