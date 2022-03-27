@@ -2,9 +2,8 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const PreCheckSchema = new Schema({
-    idVehicle: { type },
     created: { type: Date, default: Date.now },
-    idVehicule: {typpe: ObjectId, require: true},
+    idVehicule: {typpe: mongoose.Types.ObjectId, require: true},
     questionList: []
 });
 
