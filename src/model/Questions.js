@@ -3,12 +3,14 @@ const { model } = require('./Users');
 const { Schema } = mongoose;
 
 const QuestionsSchema = new Schema({
-    idSection: {type: String, require: true},
+    idSection: {type: mongoose.Types.ObjectId, require: true},
     questionText: {type: String, require: true},
-    recommendation: {type: String},
+    recommendation: [],
+    frequency: {type: Number, require: true},
     subquestion: {},
-    correctAnswer: {type: any},
+    correctAnswer: {type: String},
     options: []
 });
 
-module.exports = mongoose.mongo.model('Questions', QuestionsSchema);
+const questions = mongoose.model("Questions", QuestionsSchema);
+module.exports = { questions } ;

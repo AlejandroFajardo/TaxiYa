@@ -6,4 +6,5 @@ const SectionsSchema = new Schema({
     questionList: []
 });
 
-module.exports = mongoose.model('Sections', SectionsSchema);
+const sections = mongoose.model("Sections", SectionsSchema);
+module.exports = { sections } ;

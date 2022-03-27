@@ -3,7 +3,7 @@ const { Schema, model } = mongoose;
 
 const Vehicles = new mongoose.Schema({
     licensePlate: {type: String, require: true},
-    owner: {type: String, require: true},
+    owner: {type: mongoose.Types.ObjectId, require: true},
     mobile: {type: Number, require: true},
     class: {type: String, require: true},
     model: {type: Number, require: true},
