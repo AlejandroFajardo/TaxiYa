@@ -25,6 +25,7 @@ app.set('view engine', 'html');
 
 app.use('/api', require('./routes'));
 app.use('/api/users', require('./routes/users.routes'));
+app.use('/api/vehicles', require('./routes/vehicles.routes'));
 
 module.exports = app;
 
