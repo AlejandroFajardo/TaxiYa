@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const { Schema, model } = mongoose;
 
-const VehiclesSchema = new mongoose.Schema({
+const Vehicles = new mongoose.Schema({
     licensePlate: {type: String, require: true},
-    owner: {type: Number, require: true},
+    owner: {type: String, require: true},
     mobile: {type: Number, require: true},
     class: {type: String, require: true},
     model: {type: Number, require: true},
@@ -11,5 +11,5 @@ const VehiclesSchema = new mongoose.Schema({
     preCheckList: {type: []},
 });
 
-const Vehicle = mongoose.model("Vehicles", VehiclesSchema);
-module.exports = { Vehicle } ;
+const vehicles = mongoose.model("vehicles", Vehicles);
+module.exports = { vehicles } ;

@@ -5,6 +5,6 @@ const vehiclesController = require('../controllers/vehicles.controller.js');
 
 const router = express.Router();
 
-router.get("/vehicles", vehiclesController.renderVehicles);
+router.get("/vehicles", vehiclesController.renderPrueba);
 
 module.exports = router;

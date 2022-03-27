@@ -1,5 +1,6 @@
 //import { Vehicles } from "./modell/Vehicles";
 const vehicles = require("../model/Vehicles");
+const prueba = require("../model/prueba");
 /*
 export const renderNoteForm = (req, res) => {
   res.render("notes/new-note");
@@ -29,19 +30,25 @@ const createNewVehicle = async (req, res) => {
   if (errors.length > 0) {
 
   } else {
-    const newVehicle = new vehicles.Vehicles({ licensePlate, owner, mobile, clas, model, brand });
+    const newVehicle = new vehicles.vehicles({ licensePlate, owner, mobile, clas, model, brand });
     await newVehicle.save();
     console.log(newVehicle);
   }
 };
 
 const renderVehicles = async (req, res) => {
-  const vehicl = await vehicles.Vehicle.find().lean();
+  const vehicl = await vehicles.vehicles.find();
   console.log(vehicl);
-  res.send("ok")
-
+  res.send(vehicl);
 };
 module.exports.renderVehicles = [renderVehicles];
+
+const renderPrueba = async (req, res) => {
+  const vehicl = await prueba.prueba.find({});
+  console.log(vehicl);
+  res.send(vehicl);
+};
+module.exports.renderPrueba = [renderPrueba];
 
 
 /*
