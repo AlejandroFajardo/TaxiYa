@@ -36,10 +36,10 @@ const createNewVehicle = async (req, res) => {
 };
 
 const renderVehicles = async (req, res) => {
-  const vehicle = await vehicles.Vehicles.find().lean();
-  console.log(vehicle);
+  const vehicl = await vehicles.Vehicle.find().lean();
+  console.log(vehicl);
   res.send("ok")
-  res.render('vehicles', {title: 'vehiculos', vehicle});
+
 };
 module.exports.renderVehicles = [renderVehicles];
 
